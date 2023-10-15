@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Aladin&family=Alegreya&family=Alegreya+Sans&family=Alex+Brush&family=Cedarville+Cursive&family=Dancing+Script:wght@500&family=Farro&family=League+Script&family=Montserrat:wght@400;500&family=Neuton:wght@300&family=Nunito&family=Play&family=Poppins&family=Roboto&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+}
+.auto{
+    margin-left: auto;
+    margin-right: auto;}
+.nav{
+        display: flex;
+        height: 60px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #logo{
+        font-family: 'Parisienne', cursive;
+    }
+   
+.nav li{
+  list-style: none;
+  margin: 0 10px;
+}
+.bold{
+    font-weight:bolder;
+}
+.section1{
+    max-height: 120vh;
+}
+.topleft{
+    width: 50%;
+    height: 80vh;
+}
+.topleft h1{
+    margin-left: 30px;
+}
+.topleft p{
+    margin-left: 30px;
+}
+  
+.topright{
+    margin-top: 30px;
+    width: 50%;
+    height: 80vh;
+    object-fit: cover;
+}
+.topright img{
+    
+    margin: 30px 80px;
+   height: 100%;
+   width:100%;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.button{
+    padding:4px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #ffc40c;
+    cursor: pointer;
+    color: white;
+}
+.sale img{
+    margin: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 88vw;
+    height: 30vh;
+    overflow: hidden;
+    
+    box-shadow: 0px 15px 10px -15px #111;
+    
+}
+.saleitem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+    gap: 20px;
+}
+@media(max-width:660px){
+    header{
+        flex-direction: column;
+    }
+    .topright{
+        margin-top: 30px;
+        width: 50%;
+        height: 60vh;
+    }
+    .nav{
+        display: flex;
+        height: 60px;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;
+    }
+    .topleft{
+        margin-top: 50px;
+        width: 50%;
+        height: 80vh;
+    }
+    .sale img{
+        margin: 20px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 88vw;
+        height: 30vh;
+       
+        
+        box-shadow: 0px 15px 10px -15px #111;}
+        .productimg img{
+            position: absolute;
+    bottom: -100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: bottom 0.1s ease ;
+    padding: 15px 20px;
+    background: linear-gradient(to top, rgba( 0,0,0,0.7),transparent);
+        }
+   
+
+}
